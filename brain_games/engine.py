@@ -9,7 +9,7 @@ def engine(name, rules, generate_task):
         user_answer = prompt.string('Your answer: ')
         if (user_answer != answer):
             print("'{}' is wrong answer ;(. \
-                Correct answer was '{}'".format(user_answer, answer))
+            Correct answer was '{}'".format(user_answer, answer))
             print("Let's try again, {}!".format(name))
             quit()
         print('Correct!')
