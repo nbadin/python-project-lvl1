@@ -6,4 +6,4 @@ from brain_games.engine import engine
 def main():
     name = greeting()
     rules = 'What number is missing in the progression?'
-    return engine(name,rules, generate_question_and_answer)
+    return engine(name, rules, generate_question_and_answer)
